@@ -1,3 +1,4 @@
+<!doctype html>
 <html lang="ko">
 <head>
   <meta charset="utf-8" />
@@ -271,5 +272,32 @@
       document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   </script>
+
+  <!-- Footer (customized for Glomile) -->
+  <footer class="bg-slate-900 text-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <div class="grid md:grid-cols-4 gap-6">
+        <div class="md:col-span-2">
+          <div class="font-semibold text-lg">글로마일</div>
+          <p class="mt-3 text-sm text-slate-300 leading-6">
+            대표 최호진<br/>
+            사업자등록번호 169-45-00708<br/>
+            서울특별시 송파구 송파대로 G-129 테라타워2
+          </p>
+        </div>
+        <div>
+          <div class="font-semibold">정책</div>
+          <ul class="mt-3 space-y-2 text-sm text-slate-300">
+            <li><a href="#" class="hover:underline">이용약관</a></li>
+            <li><a href="#" class="hover:underline">개인정보 취급방침</a></li>
+            <li><a href="#" class="hover:underline">회사소개서</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-8 pt-6 border-t border-white/10 text-xs text-slate-400">
+        Copyright©2025 Glomile All rights reserved.
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
