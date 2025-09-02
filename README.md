@@ -1,1 +1,0 @@
-# nijohiohc2.github.io
